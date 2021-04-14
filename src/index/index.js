@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom';
 import logo from './images/voucher-my.png';
 import largeNumberAdd from 'shuailp';
 import './index.less'
-
-console.log(largeNumberAdd('1111111', '222222'))
-
-
-
 class Index extends React.Component {
   constructor() {
     super(...arguments);
@@ -18,7 +13,6 @@ class Index extends React.Component {
   render () {
     const { Text } = this.state;
     const loadComponent = () => {
-     
     }
 
     return <div>
