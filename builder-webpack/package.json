@@ -1,0 +1,24 @@
+{
+  "name": "builder-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ./lib --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "webpack": "^5.30.0",
+    "webpack-merge": "^5.7.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "webpack-cli": "^4.5.0"
+  }
+}
